@@ -81,7 +81,7 @@ stages:
               inputs:
                 command: 'init'
                 workingDirectory: '$(Pipeline.Workspace)/terraform-manifests-out'
-                backendType: 'azurerm'
+                #backendType: 'azurerm'
                 #backendServiceArm: 'terraform-aks-azurerm-svc-con'
                 #backendAzureRmResourceGroupName: 'terraform-storage-rg'
                 #backendAzureRmStorageAccountName: 'terraformstatexlrwdrzs'
