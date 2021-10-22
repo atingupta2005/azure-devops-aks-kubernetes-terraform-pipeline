@@ -26,8 +26,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "terraform-storage-rg"
-    storage_account_name = "tf6181statexlrwdrzs"
+    resource_group_name  = "rgatinstorage"
+    storage_account_name = "saatingupta61281"
     container_name       = "tfstatefiles"
     key                  = "aks-base.tfstate"
   }
