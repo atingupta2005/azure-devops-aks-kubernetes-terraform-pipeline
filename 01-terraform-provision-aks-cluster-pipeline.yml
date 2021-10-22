@@ -101,7 +101,7 @@ stages:
               inputs:
                 command: 'apply'
                 workingDirectory: '$(Pipeline.Workspace)/terraform-manifests-out'
-                environmentServiceName: 'Azure Pass - Sponsorship(a27aa46f-4c73-4121-b237-bee6d79373f4)'
+                environmentServiceName: 'terraform-aks-azurerm-svc-con'
                 runAzLogin: true
                 commandOptions: '$(Pipeline.Workspace)/terraform-manifests-out/$(DEV_ENVIRONMENT)-$(Build.BuildId).out'
-                allowTelemetryCollection: false
+                allowTelemetryCollection: true
