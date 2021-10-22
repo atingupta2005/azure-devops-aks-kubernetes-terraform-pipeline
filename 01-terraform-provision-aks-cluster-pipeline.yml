@@ -41,8 +41,8 @@ stages:
           workingDirectory: '$(System.DefaultWorkingDirectory)/terraform-manifests'
           backendType: 'azurerm'
           backendServiceArm: 'terraform-aks-azurerm-svc-con'
-          backendAzureRmResourceGroupName: 'terraform-storage-rg'
-          backendAzureRmStorageAccountName: 'tf6181statexlrwdrzs'
+          backendAzureRmResourceGroupName: 'rgatinstorage'
+          backendAzureRmStorageAccountName: 'saatingupta61281'
           backendAzureRmContainerName: 'tfstatefiles'
           backendAzureRmKey: 'aks-base.tfstate'
           allowTelemetryCollection: false
@@ -83,8 +83,8 @@ stages:
                 workingDirectory: '$(Pipeline.Workspace)/terraform-manifests-out'
                 backendType: 'azurerm'
                 backendServiceArm: 'terraform-aks-azurerm-svc-con'
-                backendAzureRmResourceGroupName: 'terraform-storage-rg'
-                backendAzureRmStorageAccountName: 'tf6181statexlrwdrzs'
+                backendAzureRmResourceGroupName: 'rgatinstorage'
+                backendAzureRmStorageAccountName: 'saatingupta61281'
                 backendAzureRmContainerName: 'tfstatefiles'
                 backendAzureRmKey: 'aks-base.tfstate'
                 allowTelemetryCollection: false
